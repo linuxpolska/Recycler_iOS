@@ -15,6 +15,7 @@
 		3757C2B3232A4F3C0024BEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3757C2B1232A4F3C0024BEDA /* LaunchScreen.storyboard */; };
 		3757C2BE232A4F3C0024BEDA /* RecyclerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3757C2BD232A4F3C0024BEDA /* RecyclerTests.swift */; };
 		3757C2C9232A4F3C0024BEDA /* RecyclerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3757C2C8232A4F3C0024BEDA /* RecyclerUITests.swift */; };
+		3757C2D7232A50030024BEDA /* model_val_binary_accuracy_0.9292_313.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3757C2D6232A50030024BEDA /* model_val_binary_accuracy_0.9292_313.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3757C2C4232A4F3C0024BEDA /* RecyclerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecyclerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3757C2C8232A4F3C0024BEDA /* RecyclerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecyclerUITests.swift; sourceTree = "<group>"; };
 		3757C2CA232A4F3C0024BEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3757C2D6232A50030024BEDA /* model_val_binary_accuracy_0.9292_313.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = model_val_binary_accuracy_0.9292_313.mlmodel; path = ../../../CameraML/model_val_binary_accuracy_0.9292_313.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				3757C2A9232A4F3B0024BEDA /* Main.storyboard */,
 				3757C2AF232A4F3B0024BEDA /* Assets.xcassets */,
 				3757C2B1232A4F3C0024BEDA /* LaunchScreen.storyboard */,
+				3757C2D6232A50030024BEDA /* model_val_binary_accuracy_0.9292_313.mlmodel */,
 				3757C2B4232A4F3C0024BEDA /* Info.plist */,
 				3757C2AC232A4F3B0024BEDA /* Recycler.xcdatamodeld */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				3757C2AE232A4F3B0024BEDA /* Recycler.xcdatamodeld in Sources */,
 				3757C2A8232A4F3B0024BEDA /* ViewController.swift in Sources */,
+				3757C2D7232A50030024BEDA /* model_val_binary_accuracy_0.9292_313.mlmodel in Sources */,
 				3757C2A6232A4F3B0024BEDA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
